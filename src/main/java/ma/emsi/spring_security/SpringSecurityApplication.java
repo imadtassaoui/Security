@@ -37,7 +37,7 @@ public class SpringSecurityApplication {
         };
     }
 
-    //@Bean
+    @Bean
     CommandLineRunner commandLineRunnerUsersDetails(UserService userService)
     {
         return args -> {
